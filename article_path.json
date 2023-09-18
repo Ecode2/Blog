@@ -1,5 +1,7 @@
 {
-	"files": [
-
-	]
+    "files": [
+        "/static/docs/Article_description_html/template_description.html",
+        "/static/docs/Article_description_html/template_description1.html",
+        "/static/docs/Article_description_html/template_description2.html"
+    ]
 }
