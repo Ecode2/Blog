@@ -1,4 +1,4 @@
-import os, shutil, re
+import os, re
 from markdown import Markdown
 import json
 from pathlib import Path
