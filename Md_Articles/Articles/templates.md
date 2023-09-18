@@ -112,23 +112,22 @@
         </svg>
 
         <nav>
-        	       <!--div class="d-flex justify-content-between align-items-center"-->
-			<div class="nav nav-tabs mb-3 " id="nav-tab" role="tablist">
-                	<a class="nav-link px-auto" id="nav-home-tab" data-bs-toggle="link" role="link" aria-controls="nav-home" aria-selected="false" href="/index.html">Home</a>
-              	  <a class="nav-link px-auto" id="nav-prjects-tab" data-bs-toggle="link" role="link" aria-controls="nav-projects" aria-selected="false" href="/static/html/projects.html">Projects</a>
-            	    <a class="nav-link active px-auto" id="nav-blog-tab" data-bs-toggle="link" role="link" aria-controls="nav-blog" aria-selected="true" href="/static/html/articles.html">Blog</a>
-       	         <a class="nav-link px-auto" id="nav-resume-tab" data-bs-toggle="link" role="link" aria-controls="nav-resume" aria-selected="false" href="/static/html/resume.html">Resume</a>
-                
-				<div class="dropdown bd-mode-toggle">                	
-          	      <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex" align-items-center"
-							id="bd-theme"
-         		          type="button"
-                  		 aria-expanded="false"
-       		            data-bs-toggle="dropdown"
-							aria-label="Toggle theme (auto)"
-	                      data-bs-toggle="tooltip" data-bs-placement="top" title="Themes">
-                      	<svg class="bi my-1 theme-icon-active" width="1em" height="1em"><use href="#circle-half"></use></svg>
-                     	 <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
+            <div class="nav nav-tabs nav-fill mb-3 justify-content-center" id="nav-tab" role="tablist">
+            		<a class="nav-link " id="nav-home-tab" data-bs-toggle="link" role="link" aria-controls="nav-home" aria-selected="false" href="/index.html">Home</a>
+            		<a class="nav-link " id="nav-prjects-tab" data-bs-toggle="link" role="link" aria-controls="nav-projects" aria-selected="false" href="/static/html/projects.html">Projects</a>
+                    <a class="nav-link active " id="nav-blog-tab" data-bs-toggle="link" role="link" aria-controls="nav-blog" aria-selected="true" href="/static/html/articles.html">Blog</a>
+					<a class="nav-link " id="nav-resume-tab" data-bs-toggle="link" role="link" aria-controls="nav-resume" aria-selected="false" href="/static/html/resume.html">Resume</a>
+			
+                <div class="dropdown bd-mode-toggle">                   
+                  <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex" align-items-center"
+                            id="bd-theme"
+                          type="button"
+                         aria-expanded="false"
+                        data-bs-toggle="dropdown"
+                            aria-label="Toggle theme (auto)"
+                          data-bs-toggle="tooltip" data-bs-placement="top" title="Themes">
+                        <svg class="bi my-1 theme-icon-active" width="1em" height="1em"><use href="#circle-half"></use></svg>
+                         <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
                     </button>
                     <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
                       <li>
@@ -155,14 +154,14 @@
                     </ul>
                   </div>
                 </div>
-
           </nav>
 
         <main>
             <div class="container centered">
-                <h1 class="h1 text-cente">Article's full title<h1>
-                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Article image" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Article Image</text></svg>
-
+            	<div class="container justify-content-center">
+                	<h1 class="h1 text-center">Article's full title<h1>
+                	<svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Article image" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Article Image</text></svg>
+				</div>
 
                 <hr>
 
@@ -174,7 +173,11 @@
         </main>
 
         <footer class="py-5 text-center text-body-secondary bg-body-tertiary">
-          <p>Blog template built for <a href="https://getbootstrap.com/">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+          <p>Article's author <br>Alaya Abubakar<br><br>
+				Find me on <br>
+				<a href="https://x.com/AbubakarAlaya">@AbubakarAlaya</a>
+		</p>
+		
           <p class="mb-0">
             <a href="#">Back to top</a>
           </p>
