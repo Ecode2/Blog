@@ -10,6 +10,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Upgrade pip
+      run: pip install --upgrade pip
+    
     - name: Check Out Repository
       uses: actions/checkout@v2
 
@@ -24,7 +27,7 @@ jobs:
         python-version: 3.10.10
 
     - name: Install Dependencies
-      run: pip install -r requirements.text
+      run: pip install -r requirements.txt
 
     - name: Run Python Program
       run: python ConvertMD.py
