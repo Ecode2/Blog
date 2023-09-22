@@ -111,20 +111,36 @@
       </symbol>
         </svg>
 
-        <nav>
-            <div class="nav nav-tabs nav-fill justify-content-center mb-3" id="nav-tab" role="tablist">
-              <a class="nav-link" id="nav-home-tab" data-bs-toggle="link" role="link" aria-controls="nav-home" aria-selected="false" href="index.html">Home</a>
-              <a class="nav-link active" id="nav-prjects-tab" data-bs-toggle="tab" role="link" aria-controls="nav-projects" aria-selected="true" href="#">Projects</a>
-              <a class="nav-link" id="nav-blog-tab" data-bs-toggle="link" role="link" aria-controls="nav-blog" aria-selected="false" href="articles.html">Blog</a>
-              <a class="nav-link" id="nav-resume-tab" data-bs-toggle="link" role="link" aria-controls="nav-resume" aria-selected="false" href="resume.html">Resume</a>
-              <div class="dropdown bd-mode-toggle">
-                <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center"
+		<header>   
+        <nav class="navbar navbar-expand-md fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">E-code</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-tab" aria-controls="nav-tab" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse nav-tabs my-auto justify-content-end text-end" id="nav-tab">
+      <ul class="navbar-nav" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link " id="nav-home-tab" data-bs-toggle="link" aria-controls="nav-tab" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" id="nav-prjects-tab" data-bs-toggle="tab" role="tab"  aria-controls="nav-tab" href="#">Projects</a>
+        </li>
+        <li class="nav-item">
+		<a class="nav-link" id="nav-blog-tab" data-bs-toggle="link" aria-controls="nav-tab" href="articles.html">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="nav-resume-tab" data-bs-toggle="link" aria-controls="nav-tab" href="resume.html">Resume</a>
+        </li>
+      </ul>
+      <div class="dropdown bd-mode-toggle">
+                <button class="btn btn-bd-primary py-2 dropdown-toggle align-items-center"
                   id="bd-theme"
                   type="button"
                   aria-expanded="false"
-                  data-bs-toggle="dropdown"
+                  data-bs-toggle="dropdown tooltip"
                   aria-label="Toggle theme (auto)"
-                  data-bs-toggle="tooltip" data-bs-placement="top" title="Themes">
+                  data-bs-placement="top" title="Themes">
                   <svg class="bi my-1 theme-icon-active" width="1em" height="1em"><use href="#circle-half"></use></svg>
                   <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
                 </button>
@@ -151,10 +167,13 @@
                     </button>
                   </li>
                 </ul>
-              </div>
-            </div>
-          </nav>
-
+      </div>
+    </div>
+  </div>
+</nav>
+<br><br>
+        </header>
+		
         <main>
 
         </main>

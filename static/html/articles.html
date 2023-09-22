@@ -95,7 +95,6 @@
         <link href="/static/css/articles.css" rel="stylesheet">
     </head>
     <body>
-      <header>
         <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
       <symbol id="check2" viewBox="0 0 16 16">
         <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
@@ -112,20 +111,36 @@
       </symbol>
         </svg>
 
-        <nav>
-            <div class="nav nav-tabs nav-fill justify-content-center mb-3" id="nav-tab" role="tablist">
-              <a class="nav-link" id="nav-home-tab" data-bs-toggle="link" role="link" aria-controls="nav-home" aria-selected="false" href="index.html">Home</a>
-              <a class="nav-link" id="nav-prjects-tab" data-bs-toggle="link" role="link" aria-controls="nav-projects" aria-selected="false" href="projects.html">Projects</a>
-              <a class="nav-link active" id="nav-blog-tab" data-bs-toggle="tab" role="link" aria-controls="nav-blog" aria-selected="true" href="#">Blog</a>
-              <a class="nav-link" id="nav-resume-tab" data-bs-toggle="link" role="link" aria-controls="nav-resume" aria-selected="false" href="resume.html">Resume</a>
-              <div class="dropdown bd-mode-toggle">
-                <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center"
+<header>   
+        <nav class="navbar navbar-expand-md fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">E-code</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-tab" aria-controls="nav-tab" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse nav-tabs my-auto justify-content-end text-end" id="nav-tab">
+      <ul class="navbar-nav" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link " id="nav-home-tab" data-bs-toggle="link" aria-controls="nav-tab" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="nav-prjects-tab" data-bs-toggle="link" aria-controls="nav-tab" href="projects.html">Projects</a>
+        </li>
+        <li class="nav-item">
+		<a class="nav-link active" id="nav-blog-tab" data-bs-toggle="tab" role="tab" aria-controls="nav-tab" href="#">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="nav-resume-tab" data-bs-toggle="link" aria-controls="nav-tab" href="resume.html">Resume</a>
+        </li>
+      </ul>
+      <div class="dropdown bd-mode-toggle">
+                <button class="btn btn-bd-primary py-2 dropdown-toggle align-items-center"
                   id="bd-theme"
                   type="button"
                   aria-expanded="false"
-                  data-bs-toggle="dropdown"
+                  data-bs-toggle="dropdown tooltip"
                   aria-label="Toggle theme (auto)"
-                  data-bs-toggle="tooltip" data-bs-placement="top" title="Themes">
+                  data-bs-placement="top" title="Themes">
                   <svg class="bi my-1 theme-icon-active" width="1em" height="1em"><use href="#circle-half"></use></svg>
                   <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
                 </button>
@@ -152,13 +167,14 @@
                     </button>
                   </li>
                 </ul>
-              </div>
-            </div>
-        </nav>
-        <h2 class="h2 text-center">All My Articles</h2>
-        <hr>
+      </div>
+    </div>
+  </div>
+  <hr>
+</nav>
+<br><br>
+        </header>
         
-      </header>
         <main>
           <!--## Title of a longer featured blog post
 
@@ -171,16 +187,12 @@
           
             
 
-          <div id="content-container"></div>
+          <div class="container" id="content-container">
+			
+	
+			</div>
 
-          <script src="https://utteranc.es/client.js"
-    			repo="Ecode2/ecode.github.io"
-    			issue-term="pathname"
-    			theme="github-light"
-    			crossorigin="anonymous"
-			    class="utterances-comments"
-    			async>
-		      </script>
+          
         </main>
 
         <footer class="py-5 text-center text-body-secondary bg-body-tertiary">
@@ -189,7 +201,15 @@
             <a href="#">Back to top</a>
           </p>
         </footer>
-
+        
+        <!--script src="https://utteranc.es/client.js"
+    			repo="Ecode2/ecode.github.io"
+    			issue-term="pathname"
+    			theme="github-light"
+    			crossorigin="anonymous"
+			    class="utterances-comments"
+    			async>
+		</script-->
         <script src="/assets/dist/js/bootstrap.bundle.min.js"></script>
         <script src="/static/js/articles.js"></script>
 

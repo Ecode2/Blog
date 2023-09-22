@@ -111,25 +111,37 @@
       </symbol>
         </svg>
 
-      <!-- -->
 
-        <nav class="container row  row-cols-1 row-cols-sm-2 row-cols-md-2 flex-nowrap justify-content-between align-items-center">
-          <div class="col-2 pt-1">
-            <h2>E-code</h2>
-          </div>
-            <div class="nav nav-tabs my-auto col-2 d-flex justify-content-end align-items-center" id="nav-tab" role="tablist">
-              <a class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" role="link" aria-controls="nav-home" aria-selected="true" href="#">Home</a>
-              <a class="nav-link" id="nav-prjects-tab" data-bs-toggle="link" role="link" aria-controls="nav-projects" aria-selected="false" href="projects.html">Projects</a>
-              <a class="nav-link" id="nav-blog-tab" data-bs-toggle="link" role="link" aria-controls="nav-blog" aria-selected="false" href="articles.html">Blog</a>
-              <a class="nav-link" id="nav-resume-tab" data-bs-toggle="link" role="link" aria-controls="nav-resume" aria-selected="false" href="resume.html">Resume</a>
-              <div class="dropdown bd-mode-toggle">
-                <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center"
+	<header>   
+        <nav class="navbar navbar-expand-md fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">E-code</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-tab" aria-controls="nav-tab" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse nav-tabs my-auto justify-content-end text-end" id="nav-tab">
+      <ul class="navbar-nav" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" role="tab" aria-controls="nav-tab" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="nav-prjects-tab" data-bs-toggle="link" aria-controls="nav-tab" href="projects.html">Projects</a>
+        </li>
+        <li class="nav-item">
+		<a class="nav-link" id="nav-blog-tab" data-bs-toggle="link" aria-controls="nav-tab" href="articles.html">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="nav-resume-tab" data-bs-toggle="link" aria-controls="nav-tab" href="resume.html">Resume</a>
+        </li>
+      </ul>
+      <div class="dropdown bd-mode-toggle">
+                <button class="btn btn-bd-primary py-2 dropdown-toggle align-items-center"
                   id="bd-theme"
                   type="button"
                   aria-expanded="false"
-                  data-bs-toggle="dropdown"
+                  data-bs-toggle="dropdown tooltip"
                   aria-label="Toggle theme (auto)"
-                  data-bs-toggle="tooltip" data-bs-placement="top" title="Themes">
+                  data-bs-placement="top" title="Themes">
                   <svg class="bi my-1 theme-icon-active" width="1em" height="1em"><use href="#circle-half"></use></svg>
                   <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
                 </button>
@@ -156,13 +168,17 @@
                     </button>
                   </li>
                 </ul>
-              </div>
-            </div>
-        </nav>
+      </div>
+    </div>
+  </div>
+</nav>
+<br><br>
+        </header>
 
         <main>
 
         </main>
+		
 
         <footer class="py-5 text-center text-body-secondary bg-body-tertiary">
           <p>Blog template built for <a href="https://getbootstrap.com/">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
