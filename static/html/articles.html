@@ -12,7 +12,7 @@
     />
     <meta name="generator" content="Hugo 0.115.4" />
     <title>E-code's Blog</title>
-    <link rel="icon" type="image/x-icon" href="static/images/favicon.svg" />
+    <link rel="icon" type="image/x-icon" href="/static/images/favicon.svg" />
 
     <link
       rel="canonical"
@@ -101,7 +101,7 @@
       }
     </style>
 
-    <!-- Custom styles for this page -->
+    <!-- Custom styles for this page  fixed-top-->
     <link href="/static/css/articles.css" rel="stylesheet" />
   </head>
   <body>
@@ -130,7 +130,7 @@
     </svg>
 
     <header>
-      <nav class="navbar navbar-expand-sm fixed-top bg-primary">
+      <nav class="navbar navbar-expand-sm">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">E-code</a>
           <button
@@ -145,7 +145,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div
-            class="collapse navbar-collapse nav-tabs my-auto justify-content-end text-end"
+            class="collapse navbar-collapse nav-tabs justify-content-end text-end"
             id="nav-tab"
           >
             <ul class="navbar-nav" role="tablist">
@@ -165,7 +165,7 @@
                   id="nav-prjects-tab"
                   data-bs-toggle="link"
                   aria-controls="nav-tab"
-                  href="projects.html"
+                  href="/static/html/projects.html"
                   >Projects</a
                 >
               </li>
@@ -186,23 +186,22 @@
                   id="nav-resume-tab"
                   data-bs-toggle="link"
                   aria-controls="nav-tab"
-                  href="resume.html"
+                  href="/static/html/resume.html"
                   >Resume</a
                 >
               </li>
             </ul>
             <div class="dropdown bd-mode-toggle">
               <button
-                class="btn btn-bd-primary py-2 dropdown-toggle align-items-center"
+                class="btn dropdown-toggle align-items-center"
                 id="bd-theme"
                 type="button"
                 aria-expanded="false"
-                data-bs-toggle="dropdown tooltip"
+                data-bs-toggle="dropdown"
                 aria-label="Toggle theme (auto)"
-                data-bs-placement="top"
                 title="Themes"
               >
-                <svg class="bi my-1 theme-icon-active" width="1em" height="1em">
+                <svg class="bi theme-icon-active" width="1em" height="1em">
                   <use href="#circle-half"></use>
                 </svg>
                 <span class="visually-hidden" id="bd-theme-text"
@@ -277,27 +276,18 @@
             </div>
           </div>
         </div>
-        <hr />
       </nav>
-      <br />
-      <br />
-      <br />
     </header>
+    <!--<svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> bg-body-secondary -->
 
     <main>
-      <!--## Title of a longer featured blog post
-
-          Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.
-
-          [Continue reading...](/static/docs/articles/template.html)
-          <h2>Title of a longer featured blog post</h2>
-          <p>Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</p>
-          <p><a href="/static/docs/articles/template.html">Continue reading...</a></p><markdown.core.Markdown object at 0x7f015b890910>-->
-
-      <div class="container" id="content-container"></div>
+      <section class="container-md text-center rounded">
+        <div style="height: 10px"></div>
+        <div class="container" id="content-container"></div>
+      </section>
     </main>
 
-    <footer class="py-5 text-center text-body-secondary bg-body-tertiary">
+    <footer class="py-5 text-center">
       <p>
         Blog template built for
         <a href="https://getbootstrap.com/">Bootstrap</a> by
@@ -308,14 +298,6 @@
       </p>
     </footer>
 
-    <!--script src="https://utteranc.es/client.js"
-    			repo="Ecode2/ecode.github.io"
-    			issue-term="pathname"
-    			theme="github-light"
-    			crossorigin="anonymous"
-			    class="utterances-comments"
-    			async>
-		</script-->
     <script src="/assets/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/static/js/articles.js"></script>
   </body>
