@@ -1,18 +1,6 @@
 header {
-    background-color: #3f6388;
+    background-color: #3f6388db;
     /*background-blend-mode:hue;*/
-}
-
-main {
-   /* background-image: url("/Blog/static/images/42f1bcb4-1f2c-4ca6-9bd6-befb3fda9e13.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;*/
-    background-color: #3f6388;
-    
-}
-
-section {
-    background-color:#3d80a7d1;
 }
 
 li.nav-item .nav-link.active{
@@ -20,8 +8,30 @@ li.nav-item .nav-link.active{
     
 }
 
+main {
+   /* background-image: url("/Blog/static/images/42f1bcb4-1f2c-4ca6-9bd6-befb3fda9e13.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;*/
+    background-color: #3f6388db;
+    
+}
+
+section {
+    background-color:#3d80a7d1;
+}
+
+/*.col-md-4{
+    
+}*/
+
+.col-md-4 .rounded-circle {
+    width: 75%;
+    height: 75%;
+    outline: #3f6388db;
+
+}
 
 footer {
-    background-color: #3f6388;
+    background-color: #3f6388db;
     color: aqua;
 }
