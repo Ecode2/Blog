@@ -6,7 +6,7 @@
   </p>
   <p class="lead mb-0">
     <a
-      href="/static/docs/articles/template.html"
+      href="../docs/Article_html/templates.html"
       class="text-body-emphasis fw-bold"
       >Continue reading...</a
     >

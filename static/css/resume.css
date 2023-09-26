@@ -1,5 +1,5 @@
 header {
-    background-color: #3f6388;
+    background-color: #3f6388db;
     /*background-blend-mode:hue;*/
 }
 
@@ -7,7 +7,7 @@ main {
    /* background-image: url("/Blog/static/images/42f1bcb4-1f2c-4ca6-9bd6-befb3fda9e13.jpg");
     background-size: cover;
     background-repeat: no-repeat;*/
-    background-color: #3f6388;
+    background-color: #3f6388db;
     
 }
 
@@ -22,6 +22,6 @@ li.nav-item .nav-link.active{
 
 
 footer {
-    background-color: #3f6388;
+    background-color: #3f6388db;
     color: aqua;
 }

@@ -6,12 +6,12 @@
   </p>
   <p class="lead mb-0">
     <a
-      href="/static/docs/articles/template.html"
+      href="../docs/Article_html/templates.html"
       class="text-body-emphasis fw-bold"
       >Continue reading...</a
     >
   </p>
-  <p class="lead"><i>Uploaded on 15:45 June 2024</i></p>
+  <p class="lead"><i>Uploaded on 15:45 June 2025</i></p>
   <hr />
   <br />
 </div>
