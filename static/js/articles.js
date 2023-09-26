@@ -16,7 +16,7 @@ function fetchAndInjectContent(filepath) {
 }
 
 //Fetch the json file containing file paths
-fetch("/article_path.json")
+fetch("../../article_path.json")
     .then((response) => response.json())
     .then((data) => {
         const htmlFiles = data.files;
