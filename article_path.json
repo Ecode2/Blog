@@ -1,7 +1,7 @@
 {
     "files": [
-        "/static/docs/Article_description_html/template_description2.html",
-        "/static/docs/Article_description_html/template_description1.html",
-        "/static/docs/Article_description_html/template_description.html"
+        "../docs/Article_description_html/template_description2.html",
+        "../docs/Article_description_html/template_description1.html",
+        "../docs/Article_description_html/template_description.html"
     ]
 }
